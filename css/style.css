@@ -36,6 +36,12 @@ body {
 #myButton {
     float: right;
     padding: 1em .5em;
+    top: 40%;
+    position: relative;
+    right: 10%;
+    border: none;
+    outline: none;
+    background-color: transparent;
 }
 .hamburger{
     position: relative;
@@ -64,7 +70,75 @@ body {
 .nav_items {
    display: none;
 }
+.contact_link {
+    font-size: 1.5em;
+    text-transform: capitalize;
+    padding: .3em 1em;
+    background-color:#46326A ;
+    color:#fff;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 80%;
+}
+.contact_link:hover {
+    background-color: rgba(57,41,200,.8);
+}
 
+/*********onclick show nav_items ********/
+
+.nav_open .logo {
+    z-index: 99;
+}
+.nav_open .nav_items{
+    width: 100vw;
+    height: 80vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    position: absolute;
+    top: 20vh;
+    left:0;
+    z-index: 2;
+    list-style-type: none;
+
+}
+.nav_open .nav_item {
+    padding:0;
+    margin: 0;
+    list-style: none;
+}
+.nav_open .nav_link {
+    font-size: 2em;
+    color:#000000;
+    font-weight:900;
+    text-decoration: none;
+    transition: 100ms ease-in-out;
+    display: block;
+    width: 80%;
+    padding: .3em 1em;
+    text-transform: uppercase;
+}
+.nav_open .nav_link:hover {
+    background-color: #ED4521;
+    color: #fff;
+}
+.nav_open #myButton {
+     z-index: 99;
+}
+.nav_open .hamburger{
+   background-color: transparent;
+}
+.nav_open .hamburger::before {
+    transform: rotate(45deg);
+    top: 0;
+}
+.nav_open .hamburger::after {
+    transform: rotate(-45deg);
+    top: 0;
+}
 
 /************* introduction section *********/
 
