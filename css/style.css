@@ -696,6 +696,373 @@ body {
     text-decoration: underline;
 }
 
+/**************** find the reason why *************/
+
+.reasons_why {
+    width: 100vw;
+    margin:0;
+    padding: 0;
+    text-align:center;
+    position: relative;
+    background-color: #fff;
+}
+.reason_image_container {
+    width:100%;
+    position: relative;
+    margin:0;
+    padding:0;
+}
+.reason_image_container .card-b {
+    width:100%;
+    padding: 0;
+    margin:0;
+    position:relative;
+}
+.the_right_side {
+    width:100%;
+    margin:0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+.the_headers {
+    width:100%;
+    padding:0;
+    margin:0;
+    position: relative;
+}
+.why_header {
+    font-size: 20px;
+    font-family: 'Langar', cursive;
+    position: relative;
+    color:#ED4521;
+    margin:0;
+    text-transform: capitalize;
+}
+.big_why_header {
+    font-size: 3em;
+    font-weight:800;
+    text-transform: capitalize;
+    position: relative;
+    margin:0;
+    padding:0;
+
+}
+.reason_details {
+    width:100vw;
+    padding:0;
+    margin:0;
+    position: relative;
+    text-align: center;
+}
+.letter_b {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding:0;
+}
+.b_capital {
+    width: 50px;
+    height: 50px;
+    margin:0;
+    padding:0;
+}
+.b-text {
+    margin:0;
+    padding: .5em;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+.good_marks {
+    width: 100%;
+    position: relative;
+    padding:0;
+    margin:0;
+}
+.quality {
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin:0;
+    padding:0 .5em;
+    position: relative;
+}
+.quality  small{
+    font-size: 12px;
+    padding: 0 .3em;
+    color:#ED4521;
+    margin: 0 ;
+    position: relative;
+}
+.quality .good_p {
+    font-size: 14px;
+    text-transform: capitalize;
+    margin : 0 .2em;
+}
+.good_links {
+    margin: 1em 0;
+    position: relative;
+    text-align: left;
+    padding-left: 1em;
+}
+.find_more {
+    font-size: 18px;
+    padding: .5em 1em;
+    background-color: #ED4521;
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+.find_more:hover{
+    text-decoration: underline;
+}
+
+/*****************contact section ******************/
+
+#contact {
+    width: 100vw;
+    position: relative;
+    margin:0;
+    padding:1em 0;
+}
+.contact_headers {
+    width:100%;
+    margin:0;
+    padding: 1em 0;
+    text-align:center;
+    position: relative;
+    background-color: #000000;
+}
+.contact_headers .need_help {
+    font-size: 22px;
+    font-family: 'Langar', cursive;
+    position: relative;
+    margin-bottom: 0;
+    color:#ED4521;
+    font-weight: 900;
+}
+.contact_headers .contact {
+    font-size: 3em;
+    font-weight: 900;
+    position: relative;
+    color: #fff;
+    margin: 0;
+}
+.contact_address {
+    width:100%;
+    padding: 1em 0;
+    margin: 0;
+    background-color: rgba(0,0,0,.2);
+    position: relative;
+}
+.address_one {
+    width: 80%;
+    padding:.5em 1em;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,.2);
+    position: relative;
+}
+.address_one a {
+    text-decoration: none;
+    color: white;
+}
+.address_one a:hover{
+    text-decoration: underline;
+}
+.social_media {
+    text-align: center;
+    padding: 1em 0;;
+}
+.social_media .facebook_link {
+    color:#1A1E5D;
+    font-size: 24px;
+}
+.social_media .facebook_link:hover {
+    color:#46326A;
+}
+.divider {
+    width: 60vw;
+    height: 2px;
+    margin: .5em auto;
+    position: relative;
+}
+.divider hr {
+    color:#fff;
+    position: relative;
+}
+/*********** contat form ********/
+
+#form_contact {
+    width:100vw;
+    height: 80vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2em;
+}
+.message_header {
+    text-align:center;
+    font-size: 22px;
+    font-family: 'Langar', cursive;
+    position: relative;
+    color:#ED4521;
+    font-weight: 900;
+}
+.my_form {
+    width: 75%;
+    box-shadow: inset 0 0 10px rgba(0,0,0,.4);
+    padding:1em 0;
+    margin: 0 auto;
+    position: relative;
+}
+.form_elements {
+    width:90%;
+    margin:0 auto;
+    padding: .5em 0;
+    position: relative;
+}
+.form_input {
+    width:100%;
+    padding: .3em 0;
+    margin:0;
+    position: relative;
+    left:0;
+    line-height: 30px;
+    background-color: rgba(0,0,0,.1);
+    border:none;
+    outline:none;
+    border-radius:1em;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    border-bottom:2px solid rgba(0,0,0,.4);
+}
+.form_input:focus {
+    border-bottom:2px solid #46326A;
+    color: #ED4521;
+}
+.form_label {
+    font-size: 22px;
+    position: absolute;
+    left: .5em;
+    top: .5em;
+    color:rgba(0,0,0,.6)
+}
+.form_elements-textarea {
+    width:90%;
+    margin:.5em auto;
+    padding: 1em 0;
+    position: relative;
+}
+.form_elements-textarea .form_text {
+    width:100%;
+    padding: .3em 0;
+    margin:0;
+    position: relative;
+    left:0;
+    line-height: 30px;
+    background-color: rgba(0,0,0,.1);
+    border:none;
+    outline:none;
+    border-radius:1em;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    border-bottom:2px solid rgba(0,0,0,.4);
+}
+.form_elements-textarea .form_text:focus {
+    border-bottom:2px solid #46326A;
+    color: #ED4521;
+}
+.form_elements-textarea .form_label_message {
+    font-size: 22px;
+    position: absolute;
+    left: .5em;
+    top: .8em;
+    color:rgba(0,0,0,.6)
+}
+.form_elements button {
+    width: 100%;
+    padding: 1em 0;
+    text-align:center;
+    color:#fff;
+    background-color: #1A1E5D;
+    cursor: pointer;
+    border:none;
+    outline: none;
+    border-radius: 3em;
+    font-size: 1em;
+    transition: all 250ms ease-in-out;
+    font-weight: 900;
+    letter-spacing: .2em;
+}
+.form_elements button:hover {
+    background-color: #46326A;
+}
+.my_form small {
+    text-align: left;
+    padding-left: 2em;
+    color: rgba(0,0,0,.6);
+}
+
+/*********** gallery photo *******/
+
+#gallery {
+    width:100vw;
+    margin:0;
+    padding:0;
+    position: relative;
+}
+.gallery_headers {
+    width:100%;
+    text-align: center;
+    position: relative;
+    background-color: rgba(0,0,0,.1);
+    margin:0;
+    padding: 1em 0;
+}
+.gallery_h5 {
+    text-align:center;
+    font-size: 22px;
+    font-family: 'Langar', cursive;
+    position: relative;
+    color:#ED4521;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.gallery_h1 {
+    font-size: 3em;
+    margin: 0;
+    font-weight: 900;
+    color: rgba(0,0,0,.6);
+    position: relative;
+}
+.gallery_photo {
+    display:grid;
+    gap:.3em;
+    grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width:90%;
+    position: relative;
+}
+.gallery_images {
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+
+
 
 
 
