@@ -3,10 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>service</title>
+    <title>Printing and Stationery Solutions</title>
+    <script src="https://kit.fontawesome.com/c5b8d9c167.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="./images/logo.jpeg"/>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="/" class="logo">
+                <picture>
+                    <source media="(max-width: 300px)" srcset="../images/jumbo2.jpeg">
+                    <img src="../images/logo.jpeg" alt="" class="logo_img">
+                </picture>
+            </a>
+            <button id="myButton">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav_items">
+                <li class="nav_item">
+                    <a href="/#about" class="nav_link">about</a>
+                </li>
+                <li class="nav_item">
+                    <a href="/#service" class="nav_link">service</a>
+                </li>
+                <li class="nav_item">
+                    <a href="/#contact" class="nav_link">contact</a>
+                </li>
+                <li class="nav_item">
+                    <a href="/blog" class="nav_link">blog</a>
+                </li>
+                <li class="nav_item">
+                    <a href="tel:+27 68 294 9485" class="contact_link">
+                        call me
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <section id="service_details">
         <div class="headers">
             <h1 class="service_header">service</h1>
@@ -236,5 +272,44 @@
             </div>
         </div>
     </section>
+    <footer id="footer">
+        <div class="footer_links">
+            <h3 class="footer_header">about belicon</h3>
+            <ul class="footer_items">
+                <li class="footer_item">
+                    <a href="#about" class="foo_link">about us</a>
+                </li>
+                <li class="footer_item">
+                    <a href="#why_us" class="foo_link">why print with us?</a>
+                </li>
+                <li class="footer_item">
+                    <a href="/blog" class="foo_link">blog</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_links_2">
+            <h3 class="footer_header">contact</h3>
+            <div class="adress_wrapper">
+                <h3 class="belicon">belicon Printing</h3>
+                <p class="important"><span class="important_contact">Email: </span>skyroseinc1@gmail.com</p>
+                <p class="important"><span class="important_contact">Phone: </span>+27682949485</p>
+            </div>
+            <div class="facebook_link">
+                <span class="facebook_title">find us on</span>
+                <a href="https://www.facebook.com/comfortstudioz" class="facebook_link_link"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+        <section class="wrapper">
+            <div class="copyright">
+                <p class="copy_text">&copy; <a href="/" class="copy_link">Belicon Printing</a> 2020</p>
+            </div>
+            <div class="back_to_top">
+                <a href="/" class="back_to_top_link"><i class="fas fa-arrow-up"></i></a>
+                <div class="designers_link">
+                    Designed by: <a href="https://www.theprince.co.za" class="d_link" target="_blank">Prince Mwenyemali</a>
+                </div>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
