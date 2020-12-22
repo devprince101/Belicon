@@ -1337,6 +1337,253 @@ body {
 }
 
 
+/******************* hidden service product details *****************/
+
+#service_details {
+    width:100vw;
+    margin:0;
+    padding: 2em 0;
+    position:relative;
+    display: block;
+}
+#service_details .headers {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    padding:0;
+}
+#service_details .headers .service_header {
+    font-size: 3em;
+    font-weight: 900;
+    color:rgba(0,0,0,.8);
+}
+.wrapper_1 {
+    width: 100vw;
+    position: relative;
+    margin:0;
+    padding:0;
+}
+.wrapper_1 .booklets {
+    text-align: center;
+    color: rgba(0,0,0,.6);
+    font-weight: 900;
+    font-size: 2em;
+    padding: 0 1em;
+}
+.Books_container {
+    width:100%;
+    margin:0;
+    padding:0;
+    position: relative;
+}
+.books {
+    width:100%;
+    margin:0;
+    padding:0;
+    position: relative;
+    text-align:center;
+}
+.books .books_h {
+    font-size: 1.8em;
+    margin:0;
+    padding:0;
+    color: rgba(0,0,0,.6);
+    font-weight: 900;
+    position: relative;
+    border-bottom: 2px solid rgba(0,0,0,.6);
+    padding-bottom: .5em;
+}
+.books .books_details {
+    width:100%;
+    padding:0;
+    margin: .5em 0;
+    position: relative;
+}
+.books .books_details .hard_cover {
+    font-size:1.5em;
+    text-transform: capitalize;
+    color: rgba(0,0,0,.6);
+}
+.books_details .hard_img {
+    width: 90%;
+    margin:0 auto;
+    padding:0;
+    position:relative;
+}
+.books_details .book_detail {
+    width:90%;
+    margin:0 auto;
+    padding: .5em 0;
+    position: relative;
+    font-size: 16px;
+    color:rgba(0,0,0,.6);
+    font-weight: 800;
+}
+.Books_container .brochure {
+    width:100%;
+    margin:0;
+    padding: .5em 0;
+    position: relative;
+}
+.brochure {
+    width:100%;
+    padding:0;
+    margin:0;
+    position: relative;
+}
+.brochure .brochure_h {
+    font-size: 2em;
+    font-weight: 900;
+    color: rgba(0,0,0,.8);
+    position: relative;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.brochure .broch_img {
+    width:90%;
+    margin: 0 auto;
+    padding:0;
+    position:relative;
+}
+.details_more {
+    width:100%;
+    position: relative;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+.details_more .brochure_styles {
+    font-size:18px;
+    text-transform: capitalize;
+    color:rgba(0,0,0,.8);
+    position: relative;
+    padding: 0 1em;
+}
+.d-details {
+    font-size: 15px;
+    padding: 0;
+    text-align:center;
+    margin: 0 ;
+    position: relative;
+    color: rgba(0,0,0,.6);
+}
+.types_container {
+    width:100vw;
+    margin:0;
+    padding:0;
+    position: relative;
+}
+.gate_fold {
+    font-size:1.5em;
+    margin:0;
+    position: relative;
+    color:rgba(0,0,0,.8);
+    padding: .5em 0;
+}
+.broch_type {
+    margin: 0;
+    width:100%;
+    list-style-type: none;
+    position: relative;
+    padding: 0;
+}
+.broch_type li span {
+    color: rgba(0,0,0,.6);
+    text-transform: capitalize;
+    font-size: 1.5em;
+    font-weight: 700;
+    position: relative;
+    margin-top: 1em;
+}
+.my_100 {
+    width:90%;
+    margin: 0 auto;
+    padding:0;
+    position: relative;
+}
+.broch_type .broch_details {
+    font-size: 15px;
+    color:rgba(0,0,0,.6);
+    margin-bottom: .5em;
+    padding: 0 1em;
+}
+.wrapper_1 .howto {
+    width:100%;
+    margin:0;
+    padding:1em 0;
+    position: relative;
+}
+.Books_container {
+    width:90%;
+    margin: 0 auto;
+    position: relative;
+    padding:0;
+}
+.text-detail {
+    width: 100%;
+    padding:0;
+    margin:0;
+    position:relative;
+}
+.phot0_details {
+    display: grid;
+    gap: .5em;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    position: relative;
+}
+.photo_img {
+    margin:1em auto;
+    padding:0;
+    object-fit: cover;
+    position: relative;
+    display:block;
+}
+.photo_title {
+    margin-bottom: .5em;
+    font-size:1em;
+    text-transform: capitalize;
+    color: rgba(0,0,0,.6);
+    font-weight: 800;
+}
+.img_photo {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    position: relative;
+}
+.more_details {
+    width: 80%;
+    margin:0 auto;
+    position: relative;
+    padding:0;
+}
+.some_hints {
+    font-size: 1.3em;
+    text-transform: capitalize;
+    padding:0;
+    margin:0;
+    position: relative;
+    color: rgba(0,0,0,.8);
+}
+.hints_details {
+    width: 90%;
+    color: rgba(0,0,0,.6);
+    margin:0 auto;
+    padding: 1em 0;
+    position: relative;
+}
+
+
+
+
+
+
 
 
 
