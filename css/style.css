@@ -1064,7 +1064,78 @@ body {
     padding: 0;
     object-fit: cover;
 }
+/**********team****************/
 
+#team {
+    width:100vw;
+    margin: 0;
+    padding: 2em 0;
+    position: relative;
+}
+.team_header {
+    text-align:center;
+    color:rgba(0,0,0,.6);
+    font-size: 3em;
+    font-weight: 900;
+    margin: 1em 0;
+    padding: 0;
+}
+.team_container {
+    width: 100%;
+    margin:0;
+    padding:0;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.team_left {
+    width: 80%;
+    margin:0 auto;
+    padding:0;
+    position: relative;
+    text-align:center;
+}
+.team_right{
+    width: 80%;
+    margin:0 auto;
+    padding:0;
+    position: relative;
+    text-align:center;
+}
+.comfort {
+    width: 250px;
+    height:220px;
+    margin:0 auto;
+    border-radius:2em;
+    position:relative;
+    padding:0;
+}
+.comfor_name {
+    font-weight:900;
+    color:rgba(0,0,0,.6);
+    font-size:2em;
+    position: relative;
+    margin:auto;
+}
+.title {
+    text-align:center;
+    font-size: 22px;
+    font-family: 'Langar', cursive;
+    position: relative;
+    color:#ED4521;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    margin-top:0;
+}
+.follow {
+    margin-top:.5em;
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+}
 /****************** Footer ****************/
 #footer {
    width: 100vw;
@@ -1306,6 +1377,20 @@ body {
         width: 80%;
         margin:0 auto;
     }
+    .team_container {
+        width: 100%;
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .team_left {
+        float:left;
+        position:relative;
+    }
+    .team_right {
+        float:right;
+        position: relative;
+    }
     
 }
 @media screen and (min-width:1000px) {
@@ -1334,6 +1419,15 @@ body {
    }
    .nav_link:hover {
        text-decoration: underline;
+   }
+   #introduction {
+       width:100vw;
+       margin:0;
+       padding: 0;
+       position:relative;
+       display:flex;
+       justify-content: space-evenly;
+       flex-direction: row-reverse;
    }
 }
 
